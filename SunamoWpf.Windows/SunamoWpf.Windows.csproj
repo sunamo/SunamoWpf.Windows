@@ -6,15 +6,25 @@
     <UseWPF>true</UseWPF>
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
     <Description>WPF windows and user controls extracted from SunamoWpf</Description>
-    <Version>26.2.7.2</Version>
+    <Version>26.6.21.2</Version>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
-    <PackageProjectUrl>https://sunamo.cz/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/sunamo/SunamoWpf.git</RepositoryUrl>
+    <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoWpf.Windows/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sunamo/SunamoWpf.Windows.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Nullable>enable</Nullable>
     <IsPackable>true</IsPackable>
+    <DebugType>portable</DebugType>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedAllSources>true</EmbedAllSources>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <Optimize>false</Optimize>
+    <PackageReleaseNotes>y</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.8" />

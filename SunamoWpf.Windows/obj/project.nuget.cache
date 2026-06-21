@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k6lRZlUtk7A=",
+  "dgSpecHash": "6q2mAglYZHs=",
   "success": true,
-  "projectFilePath": "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Windows\\SunamoWpf.Windows\\SunamoWpf.Windows.csproj",
+  "projectFilePath": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Windows\\SunamoWpf.Windows\\SunamoWpf.Windows.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aktiv\\.nuget\\packages\\avalonedit\\6.3.1.120\\avalonedit.6.3.1.120.nupkg.sha512",
     "C:\\Users\\aktiv\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.8\\microsoft.extensions.dependencyinjection.10.0.8.nupkg.sha512",
