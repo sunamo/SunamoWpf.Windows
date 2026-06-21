@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWPF>true</UseWPF>
+    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <Description>WPF windows and user controls extracted from SunamoWpf</Description>
+    <Version>26.2.7.2</Version>
+    <Authors>www.sunamo.cz</Authors>
+    <Copyright>www.sunamo.cz</Copyright>
+    <PackageProjectUrl>https://sunamo.cz/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sunamo/SunamoWpf.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SunamoWpf.AwesomeFont\SunamoWpf.AwesomeFont\SunamoWpf.AwesomeFont.csproj" />
+    <ProjectReference Include="..\..\SunamoWpf.Controls\SunamoWpf.Controls\SunamoWpf.Controls.csproj" />
+    <ProjectReference Include="..\..\SunamoWpf.Logging\SunamoWpf.Logging\SunamoWpf.Logging.csproj" />
+    <ProjectReference Include="..\..\SunamoWpf.Storage\SunamoWpf.Storage\SunamoWpf.Storage.csproj" />
+  </ItemGroup>
+</Project>
