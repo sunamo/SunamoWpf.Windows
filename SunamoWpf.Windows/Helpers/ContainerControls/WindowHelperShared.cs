@@ -97,7 +97,7 @@ public partial class WindowHelper
         {
             w.Close();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
         }
     }

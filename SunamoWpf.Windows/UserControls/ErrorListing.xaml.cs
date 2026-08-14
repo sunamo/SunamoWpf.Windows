@@ -58,7 +58,7 @@ public sealed partial class ErrorListing : UserControl
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

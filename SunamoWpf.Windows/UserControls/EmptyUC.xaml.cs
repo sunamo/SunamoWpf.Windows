@@ -8,7 +8,7 @@ public partial class EmptyUC : UserControl, IUserControl, IKeysHandler
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

@@ -57,7 +57,7 @@ public partial class WindowHelper
                 windowWithUserControl.Close();
             }
         }
-        catch (Exception ex)
+        catch (Exception)
         {
         }
     }

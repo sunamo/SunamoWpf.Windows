@@ -3,7 +3,6 @@
 public partial class NotificationWindow : Window
 {
 
-    PresentationSource presentationSource = null;
     static UIElement thenFocusTo = null;
 
     private NotificationWindow()
@@ -12,7 +11,7 @@ public partial class NotificationWindow : Window
             {
                 InitializeComponent();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 #if DEBUG
                 Debugger.Break();
