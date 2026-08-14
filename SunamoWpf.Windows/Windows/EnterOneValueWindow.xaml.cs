@@ -37,7 +37,7 @@ public partial class EnterOneValueWindow : Window
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

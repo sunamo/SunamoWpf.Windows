@@ -33,7 +33,7 @@ public partial class ImageButtons : UserControl
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
@@ -140,7 +140,6 @@ public partial class ImageButtons : UserControl
     public string ValidatorBeforeAddingMessage = null;
     private void SetVisibility(Button btn, object copyToClipboard)
     {
-        string methodName = "SetVisibility";
         if (copyToClipboard == null)
         {
             btn.Visibility = Visibility.Collapsed;

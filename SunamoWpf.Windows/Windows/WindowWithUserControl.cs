@@ -308,7 +308,6 @@ public class WindowWithUserControl : Window//, IControlWithResult, IUserControlW
            }, System.Windows.Threading.DispatcherPriority.ContextIdle);
         }
         var after = ActualHeight;
-        int i = 0;
     }
     private void AddUC()
     {

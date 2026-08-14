@@ -16,7 +16,7 @@ public partial class LoginUc : UserControl//, IControlWithResult, IKeysHandler
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();

@@ -9,7 +9,7 @@ public partial class LogUC : UserControl, IUserControl, IWindowOpener, IUserCont
         {
             InitializeComponent();
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 #if DEBUG
             Debugger.Break();
