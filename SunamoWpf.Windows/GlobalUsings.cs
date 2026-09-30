@@ -13,6 +13,7 @@ global using SunamoWpf.Controls;
 global using SunamoWpf.Controls.Buttons;
 global using SunamoWpf.Controls.Collections;
 global using SunamoWpf.Controls.Input;
+global using SunamoWpf.Controls.Interfaces;
 global using SunamoWpf.Controls.Menu;
 global using SunamoWpf.Controls.Result;
 global using SunamoWpf.Controls.Text;
