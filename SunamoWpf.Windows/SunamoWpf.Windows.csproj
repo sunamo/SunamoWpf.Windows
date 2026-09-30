@@ -6,7 +6,7 @@
     <RootNamespace>SunamoWpf</RootNamespace>
     <UseWPF>true</UseWPF>
     <Description>Merged into SunamoWpf.Core (flat packages, no cross-package references)</Description>
-    <Version>26.9.30.4</Version>
+    <Version>26.9.30.5</Version>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoWpf.Windows/</PackageProjectUrl>
