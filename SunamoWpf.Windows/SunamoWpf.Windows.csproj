@@ -7,7 +7,7 @@
     <UseWPF>true</UseWPF>
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
     <Description>WPF windows and user controls extracted from SunamoWpf</Description>
-    <Version>26.6.21.2</Version>
+    <Version>26.9.30.3</Version>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoWpf.Windows/</PackageProjectUrl>
@@ -25,7 +25,7 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <Optimize>false</Optimize>
-    <PackageReleaseNotes>y</PackageReleaseNotes>
+    <PackageReleaseNotes>Sync SunamoWpf.Windows with wnp</PackageReleaseNotes>
     <NoWarn>CA1416;CS0067;CS8625;CS8618;CS8601;CS8600;CS8629;CS8604;CS8622;CS8602;CS0108</NoWarn>
   </PropertyGroup>
   <ItemGroup>
