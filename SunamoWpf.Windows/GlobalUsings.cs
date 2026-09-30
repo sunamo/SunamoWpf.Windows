@@ -51,3 +51,6 @@ global using System.Text;
 global using System.Windows.Media.Imaging;
 global using ILogger = Microsoft.Extensions.Logging.ILogger;
 global using NullLogger = Microsoft.Extensions.Logging.Abstractions.NullLogger;
+global using SunamoWpf.Controls.Extensions;
+global using SunamoWpf.Controls.Helpers;
+global using SunamoWpf.Controls.Helpers.ControlsWithGet;

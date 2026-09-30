@@ -93,7 +93,7 @@ public class WindowWithUserControl : Window//, IControlWithResult, IUserControlW
         if (uc is IUserControlWithSuMenuItemsList)
         {
             IUserControlWithSuMenuItemsList userControlWithSuMenuItemsList = (IUserControlWithSuMenuItemsList)uc;
-            var miUc = SunamoWpf.Helpers.ControlsWithGet.SuMenuItemHelper.Get(new ControlInitData { text = userControlWithSuMenuItemsList.Title });
+            var miUc = SunamoWpf.Controls.Helpers.ControlsWithGet.SuMenuItemHelper.Get(new ControlInitData { text = userControlWithSuMenuItemsList.Title });
             foreach (var item in userControlWithSuMenuItemsList.SuMenuItems())
             {
                 miUc.Items.Add(item);
