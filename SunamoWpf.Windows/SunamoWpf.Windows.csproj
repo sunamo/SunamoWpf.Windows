@@ -5,9 +5,8 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <RootNamespace>SunamoWpf</RootNamespace>
     <UseWPF>true</UseWPF>
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
-    <Description>WPF windows and user controls extracted from SunamoWpf</Description>
-    <Version>26.6.21.2</Version>
+    <Description>Merged into SunamoWpf.Core (flat packages, no cross-package references)</Description>
+    <Version>26.9.30.5</Version>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoWpf.Windows/</PackageProjectUrl>
@@ -25,16 +24,6 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <Optimize>false</Optimize>
-    <PackageReleaseNotes>y</PackageReleaseNotes>
-    <NoWarn>CA1416;CS0067;CS8625;CS8618;CS8601;CS8600;CS8629;CS8604;CS8622;CS8602;CS0108</NoWarn>
+    <PackageReleaseNotes>Odkazy na typy z SunamoWpf.Controls v novych namespace</PackageReleaseNotes>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.8" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SunamoWpf.AwesomeFont\SunamoWpf.AwesomeFont\SunamoWpf.AwesomeFont.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Controls\SunamoWpf.Controls\SunamoWpf.Controls.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Logging\SunamoWpf.Logging\SunamoWpf.Logging.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Storage\SunamoWpf.Storage\SunamoWpf.Storage.csproj" />
-  </ItemGroup>
 </Project>
