@@ -21,6 +21,7 @@ last_build_ok: yes
 last_build_date: 2026-10-02
 last_tests_run_date: not run
 covered_lines: 0
+remote_cleanup_date: 2026-10-06
 ---
 
 ## Description
